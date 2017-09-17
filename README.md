@@ -3,8 +3,8 @@ Bash Script to make AMI backup from EC2 instance with retention and delete old A
 
 Requirements
 -----------
-1. You need install AWS tools at your system.<br />.<br />
-2. Configured AWS Cli. http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html .<br />.<br />
+1. You need install AWS Cli at your system.<br />
+2. Configured AWS Cli. http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html .<br />
 3. Script : aws-ec2-ami-backup-retention.sh with execute permissions.
 
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #title           :aws-ec2-ami-backup-retention
-#description     :Bash Script to make AMI backup from EC2 instances with retention and delete old AMI if these doesn't be in use without downtime.
+#description     :Bash Script to make AMI backup from EC2 instance with retention and delete old AMI if these doesn't be in use without downtime.
 #author          :isaac88
 #date            :20170901
 #version         :1.0
@@ -67,7 +67,7 @@ create_ami_from_instance ()
     echo "Name AMI : "$CREATEAMIEC2
 }
 
-#Funciton to delete Snapshots of AMI
+#Funciton to delete AMI and Snapshots
 delete_snapshots_ami()
 {
     #DELETE AMI AND EBS SNAPSHOT 
